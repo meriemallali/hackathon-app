@@ -1,0 +1,8 @@
+<!-- Display list of recipes -->
+<h2>Your Recipes</h2>
+{% for recipe in recipes %}
+    <div>
+        <h3>{{ recipe.name }}</h3>
+        <!-- Display other recipe details -->
+    </div>
+{% endfor %}
